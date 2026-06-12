@@ -1,6 +1,8 @@
 The concurrent HashMap goals is to be a thread safe hash map. That allows many 
-concurrent readers and writers.  
-The API consists of 4 functions. 
+concurrent readers and writers.
+
+The API consists of 4 functions.
+
 void * newtable(); 
 This function is used for making new tables and it will return a void pointer to the table. This 
 pointer is how the other function identifies the table; 
