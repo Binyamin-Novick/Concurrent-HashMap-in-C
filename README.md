@@ -3,6 +3,9 @@ concurrent readers and writers.
 
 The API consists of 4 functions.
 
+
+
+
 void * newtable();
 
 This function is used for making new tables and it will return a void pointer to the table. This 
